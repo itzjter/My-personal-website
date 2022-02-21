@@ -1,0 +1,49 @@
+# Note
+
+Fai prima mobile first approach then modifcalo per addattarlo al desktop design.
+Buon lavoro! 
+
+# P.s. 
+Il sito verrà continuamente aggiornato, ogni volta che io personalmente aquisirò nuovi skills.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+# Mobile first approach:
+
+In this case i used iPhone 13 Pro Max (Width:428px but i will use 375px) as Mobile design.
+
+- Min-width: 375px;
+
+- Family: 'Play', sans-serif;
+- Weight: 410, 700;
+
+# Nel caso ti dimenticassi, il sito del font è qui: https://fonts.google.com/share?selection.family=Play:wght@400;700
+
+# colors
+
+- main bg: #0d1321;
+
+- navbar bg: #0353a4;
+
+- footer bg: #0353a4;
+
+- fontcolor: #f0ebd8;
+
+- navbar fontcolor: #f0ebd8;
+
+- heading fontcolor: #0466c8;
+
+# body copy
+
+- font-size: 1rem
+
+# tablet e desktop copy
+
+- min-width: 768px
+
+# body copy 
+
+- font-size: 1.2 rem
+
+# Buon lavoro! 
+
+## You can do it.
+
