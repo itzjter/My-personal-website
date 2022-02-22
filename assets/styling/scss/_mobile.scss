@@ -5,6 +5,9 @@ body {
     font-family: 'Play', sans-serif; 
 }
 
+
+// navbar
+
 nav {
     background-color: $navbarbg;
 
@@ -29,7 +32,7 @@ nav {
     }
     
     #navbarNav {
-
+        text-align: center;
         a {
             color: $fontcolor;
         }
@@ -41,14 +44,25 @@ nav {
     }
 }
 
+
+// home 
+
 header {
     background-color: $mainbg;
+
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
 
     .text {
         color: $fontcolor;
 
-        .text > h2 {
-            color: $heading-fontcolor;
+        h2 {
+            color: $fontcolor;
         }
 
         h1 {
@@ -57,16 +71,33 @@ header {
 
     }
 
+    .btn {
+        color: $navbarbg;
+        font-weight: 700;
+        background-color: $fontcolor;
+        border-radius: 2rem;
+        box-shadow: 0 0 2rem #0466c8;
+    }
+
+    .btn:hover {
+        color: $fontcolor;
+        font-weight: 700;
+        background-color: $navbarbg;
+        border-radius: 2rem;
+        box-shadow: 0 0 2rem white;
+
+    }
+
     img {
         width: 70%;
         height: 70%;
         border: solid 2px #0353a4;
         border-radius: 50%;
-        box-shadow: 0 0 10px white;
+        box-shadow: 0 0 1rem white;
     }
 }
 
-section {
+main {
     background-color: $content-color;
 
     p, h3 {
@@ -77,13 +108,19 @@ section {
         color: $heading-fontcolor;
     }
 
-    .about-me > div h2 {
+    #about-me > div h2 {
         background-color: $mainbg;
     }
-    .portfolio > div h2 {
+     #portfolio > div h2 {
+        background-color: $mainbg;
+     }
+    #contacts > div h2 {
         background-color: $mainbg;
     }
-    .contacts > div h2 {
-        background-color: $mainbg;
-    }
+    
+}
+
+footer {
+    background-color: $footerbg;
+
 }

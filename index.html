@@ -39,7 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto fs-6">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#about-me">About me</a>
@@ -58,15 +58,25 @@
 
     <!-- header start here -->
 
-    <header>
-        <div class="text">
-            <h2>Hey!</h2>
-            <h2>I'm Chester, a</h2>
-            <h1>Web Developer.</h1>
-            <h3>nice to meet you!</h3>
-        </div>
-        <div>
-            <img class="img-fluid" src="assets/images/pfp.jpg" alt="" aria-hidden="true">
+    <header id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-content-center mt-5 mb-5">
+                    <div>
+                        <img class="img-fluid" src="assets/images/pfp.jpg" alt="" aria-hidden="true">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center mb-5">
+                    <div class="text">
+                        <h2 class="display-3 mb-3">I'm Chester</h2>
+                        <h1 class="display-2 fw-bold mb-3">Web Developer</h1>
+                        <h3 class="display-5 mb-5">Nice to meet you!</h3>
+                    </div>
+                    <div class="button">
+                        <button class="btn px-4 py-2">Who am i?</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     
@@ -74,9 +84,9 @@
 
     <!-- content star here (About me, Portfolio, Contacts) -->
 
-    <section class="content">
+    <main class="content">
         <!-- about me -->
-        <div id="about-me">
+        <section id="about-me">
             <div>
                 <h2>About me</h2>
             </div>
@@ -96,9 +106,9 @@
                 <i class="fa-brands fa-bootstrap"></i>
                 <i class="fa-brands fa-js-square"></i>
             </div>
-        </div>
+        </section>
         <!-- Portfolio -->
-        <div id="portfolio">
+        <section id="portfolio">
             <div>
                 <h2>My latest work</h2>
             </div>
@@ -108,15 +118,15 @@
                 <a href="" target="_blank"><img class="img-fluid" src="" alt="" aria-hidden="true"></a>
                 <a href="" target="_blank"><img class="img-fluid" src="" alt="" aria-hidden="true"></a>
             </div>
-        </div>
+        </section>
         <!-- Contacts -->
-        <div id="contacts">
+        <section id="contacts">
             <div>
                 <h2>Get in touch!</h2>
             </div>
             
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- content end here -->
 
