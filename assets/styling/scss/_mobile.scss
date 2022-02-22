@@ -5,8 +5,7 @@ body {
     font-family: 'Play', sans-serif; 
 }
 
-
-// navbar
+// Navbar start here
 
 nav {
     background-color: $navbarbg;
@@ -44,8 +43,9 @@ nav {
     }
 }
 
+// Navbar end here 
 
-// home 
+// Home 
 
 header {
     background-color: $mainbg;
@@ -71,7 +71,99 @@ header {
 
     }
 
-    .btn {
+    // .btn {
+    //     color: $navbarbg;
+    //     font-weight: 700;
+    //     background-color: $fontcolor;
+    //     border-radius: 2rem;
+    //     box-shadow: 0 0 2rem #0466c8;
+    // }
+
+    // .btn:hover {
+    //     color: $fontcolor;
+    //     font-weight: 700;
+    //     background-color: $navbarbg;
+    //     border-radius: 2rem;
+    //     box-shadow: 0 0 2rem white;
+
+    // }
+
+    img {
+        width: 70%;
+        height: 70%;
+        border: solid 2px #0353a4;
+        border-radius: 50%;
+        box-shadow: 0 0 1rem white;
+    }
+}
+
+// Home end here
+
+main {
+    background-color: $mainbg;
+
+    // .row {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     text-align: center;
+    //     flex-direction: column;
+    // }
+
+    p, h2 {
+        color: $fontcolor;
+    }
+
+    h3 {
+        color: $heading-fontcolor;
+        font-weight: 700;
+    }
+
+    h1 {
+        color: $heading-fontcolor;
+    }
+
+    #about-me {
+
+        .nopadding {
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+        }
+
+        img {
+            max-height: 150px;
+            max-width: 150px;
+
+            border-radius:20px;
+            box-shadow: 0 0 10px black;
+        }
+        
+        .contentbg {
+            background-color: $content-color;
+            padding: 15px 20px;
+        }
+    }
+
+     #portfolio > div h2 {
+        background-color: $mainbg;
+     }
+    #contacts > div h2 {
+        background-color: $mainbg;
+    }
+    
+}
+
+footer {
+    background-color: $footerbg;
+
+}
+
+hr {
+    border: solid 1px white;
+    box-shadow: 0 0 1rem white;
+}
+
+.btn {
         color: $navbarbg;
         font-weight: 700;
         background-color: $fontcolor;
@@ -87,40 +179,3 @@ header {
         box-shadow: 0 0 2rem white;
 
     }
-
-    img {
-        width: 70%;
-        height: 70%;
-        border: solid 2px #0353a4;
-        border-radius: 50%;
-        box-shadow: 0 0 1rem white;
-    }
-}
-
-main {
-    background-color: $content-color;
-
-    p, h3 {
-        color: $fontcolor;
-    }
-
-    h2 {
-        color: $heading-fontcolor;
-    }
-
-    #about-me > div h2 {
-        background-color: $mainbg;
-    }
-     #portfolio > div h2 {
-        background-color: $mainbg;
-     }
-    #contacts > div h2 {
-        background-color: $mainbg;
-    }
-    
-}
-
-footer {
-    background-color: $footerbg;
-
-}
