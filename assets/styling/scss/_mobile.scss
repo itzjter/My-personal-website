@@ -1,1 +1,89 @@
 @import "variables";
+
+body {
+    background-color: $mainbg;
+    font-family: 'Play', sans-serif; 
+}
+
+nav {
+    background-color: $navbarbg;
+
+    a {
+        color: $fontcolor;
+        font-weight: 700;
+    }
+
+    a:hover {
+        color: $content-color;
+        transition: all 300ms ease-in-out;
+    }
+
+    .fa-bars:hover {
+        color: $content-color !important;
+        transition: all 300ms ease-in-out;
+    }
+
+    .navbar-toggler {
+        color: $fontcolor;
+        transition: all 200ms ease-in-out;
+    }
+    
+    #navbarNav {
+
+        a {
+            color: $fontcolor;
+        }
+        
+       a:hover {
+           color: $content-color;
+           transition: all 300ms ease-in-out;
+       }
+    }
+}
+
+header {
+    background-color: $mainbg;
+
+    .text {
+        color: $fontcolor;
+
+        .text > h2 {
+            color: $heading-fontcolor;
+        }
+
+        h1 {
+            color: $heading-fontcolor;
+        }
+
+    }
+
+    img {
+        width: 70%;
+        height: 70%;
+        border: solid 2px #0353a4;
+        border-radius: 50%;
+        box-shadow: 0 0 10px white;
+    }
+}
+
+section {
+    background-color: $content-color;
+
+    p, h3 {
+        color: $fontcolor;
+    }
+
+    h2 {
+        color: $heading-fontcolor;
+    }
+
+    .about-me > div h2 {
+        background-color: $mainbg;
+    }
+    .portfolio > div h2 {
+        background-color: $mainbg;
+    }
+    .contacts > div h2 {
+        background-color: $mainbg;
+    }
+}
