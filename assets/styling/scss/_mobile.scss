@@ -124,23 +124,38 @@ main {
     }
 
     #about-me {
+        background-color: $content-color;
 
         .nopadding {
             padding-right: 0 !important;
             padding-left: 0 !important;
         }
 
+        p {
+            text-align: justify;
+        }
+
         img {
             max-height: 150px;
             max-width: 150px;
+            margin: 7px 0 0 10px;
 
             border-radius:20px;
             box-shadow: 0 0 10px black;
         }
         
-        .contentbg {
-            background-color: $content-color;
-            padding: 15px 20px;
+        .abtme-content {
+            padding: 20px 30px;
+        }
+
+        .skills > .btn {
+            border: none;
+            background-color: transparent;
+            box-shadow: 0 0 0;
+            
+            h3 {
+                color: $fontcolor;
+            }
         }
     }
 
